@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info" id="info">0</div>
+    <div class="container">
+        <div class="tempo">
+            <div id="relogio"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div onclick="mudarFuso(-3)" class="lugar">Brasília (UTC-3)</div>
+        <div onclick="mudarFuso(-4)" class="lugar">Nova Iorque (UTC-4)</div>
+        <div onclick="mudarFuso(9)" class="lugar">Tóquio (UTC+9)</div>
+    </div>
+</body>
+</html>
